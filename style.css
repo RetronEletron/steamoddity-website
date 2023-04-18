@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.stroke-text{
+  font-family: 'Luckiest Guy', cursive;
+  color: yellow;
+  font-size: 100px;
+  -webkit-text-stroke: 5px red;
+
+
+}
+
