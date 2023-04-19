@@ -6,17 +6,10 @@ body {
   
 }
 
-.home-header {
-  
-}
-
 .steamoddity-logo {
   width: 400px;
   margin-right: 20px;
   cursor: pointer;
-}
-
-.steamoddity-logo,.header-buttons {
   position: relative;
   bottom: 80px;
   float: left;
@@ -32,23 +25,26 @@ body {
 }
 
 .home-button,.news-button,.videos-button {
-  position: relative;
   transition: color 0.3s;
+  cursor: pointer;
 }
 
 .home-button {
-  top: 8px;
-  margin-right: 70px;
+  position: absolute;
+  bottom: 680px;
+  left: 430px;
 }
 
 .news-button {
-  left: 253px;
-  bottom: 193px;
+  position: absolute;
+  bottom: 680px;
+  left: 730px;
 }
 
 .videos-button {
-  left: 569px;
-  bottom: 395px;
+  position: absolute;
+  bottom: 680px;
+  left: 1030px;
 }
 
 .home-button:hover,.news-button:hover,.videos-button:hover,.errorpage1:hover,.friend-text:hover {
