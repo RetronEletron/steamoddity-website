@@ -99,7 +99,7 @@ body {
 .friends-logo:hover {
   animation-fill-mode: forwards;
   animation-name: friends-logo;
-  animation-duration: 1s;
+  animation-duration: 0.7s;
 }
 
 
@@ -107,7 +107,7 @@ body {
 .errorpage3 {
   position: relative;
   animation: infinite;
-  animation-duration: 0.7s;
+  animation-duration: 1.5s;
   animation-name: page;
 }
 
@@ -118,7 +118,7 @@ body {
   }
 
   50% {
-    top: 60px;
+    top: 40px;
   }
 
   100% {
