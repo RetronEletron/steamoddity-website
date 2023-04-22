@@ -99,7 +99,7 @@ body {
 .friends-logo:hover {
   animation-fill-mode: forwards;
   animation-name: friends-logo;
-  animation-duration: 0.7s;
+  animation-duration: 1s;
 }
 
 
