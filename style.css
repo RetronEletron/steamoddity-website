@@ -107,7 +107,7 @@ body {
 .errorpage3 {
   position: relative;
   animation: infinite;
-  animation-duration: 1.5s;
+  animation-duration: 0.7s;
   animation-name: page;
 }
 
@@ -118,7 +118,7 @@ body {
   }
 
   50% {
-    top: 40px;
+    top: 60px;
   }
 
   100% {
