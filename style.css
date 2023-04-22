@@ -94,8 +94,14 @@ body {
   width: 100px;
   cursor: pointer;
   right: 370px;
-
 }
+
+.friends-logo:hover {
+  animation-fill-mode: forwards;
+  animation-name: friends-logo;
+  animation-duration: 1s;
+}
+
 
 
 .errorpage3 {
@@ -117,5 +123,15 @@ body {
 
   100% {
     top: 0px;
+  }
+}
+
+@keyframes friends-logo {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    
+    bottom: 10px;
   }
 }
