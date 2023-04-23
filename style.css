@@ -91,6 +91,7 @@ body {
   width: 100px;
   cursor: pointer;
   right: 370px;
+  bottom: 0px;
 }
 
 .friends-logo:hover {
@@ -124,9 +125,6 @@ body {
 }
 
 @keyframes friends-logo {
-  0% {
-    bottom: 0px;
-  }
   50% {
     
     bottom: 10px;
