@@ -85,3 +85,9 @@ body {
   padding-left: 90px;
   padding-right: 90px;
 }
+
+@media(width <= 991px) {
+    .steamoddity-header-nav {
+      display: none;
+    }
+}
