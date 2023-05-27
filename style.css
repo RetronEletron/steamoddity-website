@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.897);
+  font-family: 'Jost', sans-serif;
+}
+
+.steamoddity-header {
+  height: 77.8px;
+  width: 100vw;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steamoddity-header-profile {
+  display: flex;
+  align-items: center;
+  width: 292px;
+  font-weight: 900;
+  padding-left: 20px;
+}
+
+.steamoddity-header-profile img{
+  width: 60.8px;
+  aspect-ratio: 1;
+  padding-right: 15px;
+}
+
+.steamoddity-header-container {
+  display: flex;
+  align-items: center;
+  width: 1140px;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.steamoddity-header-nav span {
+  padding-right: 80px;
+}
+
+.steamoddity-main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/blocky-background-1920x1080.jpg);
+  background-position: center;
+}
