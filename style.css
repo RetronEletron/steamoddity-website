@@ -71,6 +71,7 @@ body {
 }
 .steamoddity-main-text-buttons button{
   color: rgba(255, 255, 255, 0.897);
+  font-weight: bold;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 10px;
@@ -80,14 +81,48 @@ body {
   background-color: #40B0BF;
   border: none;
   border-radius: 5px;
+  font-size: 15px;
+  transition: background-color 500ms, color 500ms;
+  cursor: pointer;
 }
 .steamoddity-main-text-buttons button:first-child {
   padding-left: 90px;
   padding-right: 90px;
 }
 
+.steamoddity-main-text-buttons button:hover {
+  background-color: yellow;
+  color: black;
+  position: absolute;
+}
+
+.steamoddity-news-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/steamoddity-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(50%) blur(3px);
+  position: absolute;
+  z-index: -1;
+
+}
+.steamoddity-news {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
 @media(max-width: 991px) {
     .steamoddity-header-nav {
       display: none;
     }
-}
+    .steamoddity-main-text strong {
+      font-size: 3.6rem;
+    }
+
+    .steamoddity-main-text-buttons button {
+      transform: translate(40px);
+    }
+  }
