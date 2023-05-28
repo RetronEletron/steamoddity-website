@@ -93,7 +93,6 @@ body {
 .steamoddity-main-text-buttons button:hover {
   background-color: yellow;
   color: black;
-  position: absolute;
 }
 
 .steamoddity-news-container {
