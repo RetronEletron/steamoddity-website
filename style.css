@@ -77,7 +77,7 @@ body {
 .steamoddity-main-text span {
   font-size: 1.2em;
 }
-.steamoddity-main-text-buttons button{
+.main-buttons{
   color: rgba(255, 255, 255, 0.897);
   font-weight: bold;
   padding-left: 70px;
@@ -114,24 +114,8 @@ body {
   bottom: 0;
 }
 
-.hamburger {
-  stroke: white;
-  display: none;
-}
 
-.steamoddity-header-container svg {
-  padding-right: 20px;
-  cursor: pointer;
-  transition: opacity 500ms;
-}
 
-.steamoddity-header-container svg:hover {
-  opacity: 0.7;
-}
-
-.exit {
-  display: none;
-}
 
 @media(max-width: 991px) {
     .steamoddity-header-nav {
@@ -145,7 +129,7 @@ body {
       transform: translate(40px);
     }
 
-    .hamburger {
-      display: inline-block;
+    .home-button {
+      transform: translate(-85px);
     }
   }
