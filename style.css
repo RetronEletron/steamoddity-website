@@ -37,8 +37,15 @@ body {
   font-weight: 600;
 }
 
-.steamoddity-header-nav span {
+.steamoddity-header-nav a {
   padding-right: 80px;
+  transition: opacity 500ms;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.897);
+}
+
+.steamoddity-header-nav a:hover {
+  opacity: 0.6;
 }
 
 .steamoddity-main {
@@ -95,22 +102,15 @@ body {
   color: black;
 }
 
-.steamoddity-news-container {
+.steamoddity-main-footer {
   width: 100vw;
-  height: 100vh;
-  background-image: url(images/steamoddity-background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: brightness(50%) blur(3px);
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  z-index: -1;
-
-}
-.steamoddity-news {
-  width: 100vw;
-  height: 100vh;
-  z-index: 1;
+  bottom: 0;
 }
 
 @media(max-width: 991px) {
