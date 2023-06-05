@@ -115,8 +115,53 @@ body {
   bottom: 0;
 }
 
+.news-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.posts-text {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.posts-box {
+  margin: 20px 0px;
+  width: 70%;
+  max-width: 1152px;
+  height: 118px;
+  background-color: #0D0D0D;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.post-date {
+  float: right;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+
+.post-title,.post-description {
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 20px;
+
+}
 
 
+
+.post-title {
+  font-size: 1.5rem;
+  color: #93b7ff;
+}
 
 @media(max-width: 991px) {
     .steamoddity-header-nav {
@@ -130,5 +175,5 @@ body {
       transform: translate(40px);
     }
 
-  
+
   }
