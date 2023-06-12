@@ -163,6 +163,28 @@ body {
   color: #93b7ff;
 }
 
+
+.news-article-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.news-article-container p {
+display: inline-block;
+margin: 10px;
+}
+
+.header-news {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-news:nth-child(1) {
+  font-size: 2rem;
+}
+
 @media(max-width: 991px) {
     .steamoddity-header-nav {
       display: none;
