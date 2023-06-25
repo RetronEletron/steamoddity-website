@@ -591,6 +591,14 @@ video {
   height: 100vh;
 }
 
+.max-h-\[138px\] {
+  max-height: 138px;
+}
+
+.max-h-\[24px\] {
+  max-height: 24px;
+}
+
 .w-\[1140px\] {
   width: 1140px;
 }
@@ -726,6 +734,14 @@ video {
 
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
 }
 
 .font-bold {
