@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.steamoddity-home-bg {
+  background-image: url(../images/blocky-background-1920x1080.jpg);
+  background-position: center;
+}
+
+@media (width <= 991px) {
+  .steamoddity-nav-media-query {
+    display: none;
+  }
+}
