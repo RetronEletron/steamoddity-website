@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 .steamoddity-home-bg {
   background-image: url(../images/blocky-background-1920x1080.jpg);
