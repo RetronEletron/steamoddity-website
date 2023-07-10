@@ -9,7 +9,7 @@
   background-position: center;
 }
 
-@media (width <= 991px) {
+@media (max-width: 991px) {
   .steamoddity-nav-media-query {
     display: none;
   }
